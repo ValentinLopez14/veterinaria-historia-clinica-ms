@@ -11,7 +11,7 @@ public class ClinicHistories {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "clinic_history_id")
-	private Integer idClinicHistory;
+	private Long idClinicHistory;
 	
 	@Column(name = "pet_id")
 	private Integer petId;
